@@ -59,7 +59,6 @@ body {
 
 .header {
   border: 1px solid var(--header-border);
-  
 }
 .conteiner-header {
   margin: 0 auto;
@@ -96,7 +95,7 @@ body {
   color: var(--accent-color);
 }
 .header-link {
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -121,9 +120,9 @@ body {
   display: block;
   color: var(--accent-color);
   position: relative;
-  }
+}
 
-.current::after{
+.current::after {
   position: absolute;
   content: '';
   display: block;
@@ -133,10 +132,9 @@ body {
   border-radius: 2px;
   left: 0;
   bottom: 0;
- 
 }
 .header-contacts {
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -208,7 +206,6 @@ body {
   cursor: pointer;
   font-family: inherit;
 }
-
 
 .button:hover,
 .button:focus {
@@ -292,7 +289,7 @@ body {
   margin-bottom: 50px;
 }
 
-.conteiner-about-overley{
+.conteiner-about-overley {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,16 +300,13 @@ body {
   width: 100%;
   height: 70px;
   padding: 27px;
- 
-  
 }
-.about-title{
+.about-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-color);
- 
 }
 /*======================= and about us =====================*/
 /*======================= team =====================*/
@@ -323,7 +317,6 @@ body {
 }
 
 .button-icon-network {
-  
   fill: currentColor;
   width: 20px;
   height: 20px;
@@ -334,7 +327,8 @@ body {
 }
 
 .link-icon-network {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -360,9 +354,7 @@ body {
   margin-top: -30px;
 }
 .our-team {
-  
   padding: 30px 32px;
-   
 }
 
 .team-title {
@@ -380,8 +372,7 @@ body {
   background-color: var(--primary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-      border-radius: 0px 0px 4px 4px;
- 
+  border-radius: 0px 0px 4px 4px;
 }
 .team-text {
   font-size: 16px;
@@ -409,7 +400,8 @@ body {
   justify-content: center;
 }
 .clients-contacts {
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   border-radius: 4px;
   width: 100%;
@@ -498,26 +490,23 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
 /*======================= end footer =====================*/
 
 /*======================= portfolio =====================*/
-.portfolio-overly{
-
+.portfolio-overly {
   position: absolute;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   width: 100%;
   height: 100%;
-  top:0;
+  top: 0;
   left: 0;
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--primary-color);
   padding: 63px 24px;
 }
-.portfolio-text-overly{
+.portfolio-text-overly {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
-
 }
 
 .portfolio {
@@ -532,7 +521,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-link:hover .portfolio-overly{
+.portfolio-link:hover,
+.portfolio-link:focus .portfolio-overly {
   transform: translateY(0);
 }
 
@@ -545,10 +535,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   margin-right: 8px;
 }
 .portfolio-button {
-  
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid transparent;
   padding: 6px 22px;
   background: var(--light-background);
@@ -561,12 +550,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   cursor: pointer;
   font-family: inherit;
 }
-.curbstone{
+.curbstone {
   position: relative;
   overflow: hidden;
-  
 }
-
 
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -575,7 +562,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 
 .portfolio-title {
   font-weight: 700;
@@ -612,23 +598,21 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
 }
 /*======================= end portfolio =====================*/
 
-
-
 /*======================= modal =====================*/
-.backdrop{
+.backdrop {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-.modal{
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -636,16 +620,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   min-width: 528px;
   min-height: 581px;
   background-color: var(--primary-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-    padding: 19px 12px;
+  padding: 19px 12px;
 }
-.button-icon-close{
-   fill: currentColor;
-
-
+.button-icon-close {
+  fill: currentColor;
 }
-.button-modal{
+.button-modal {
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 30px;
@@ -655,14 +638,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border-color 250ms cubic-
   margin-left: auto;
   cursor: pointer;
   font-family: inherit;
-
-
 }
-.button-modal:hover{
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.button-modal:hover {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--primary-color);
   background-color: var(--dark-background);
-
 }
 
 .button-modal:focus {
